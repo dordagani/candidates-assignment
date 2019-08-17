@@ -1,2 +1,2 @@
 #!/bin/bash
-#add fix to exercise4-server2 here
+sudo sed -i.bak "/127.0.0.1 localhost/a192.168.100.10 server1" /etc/hosts
